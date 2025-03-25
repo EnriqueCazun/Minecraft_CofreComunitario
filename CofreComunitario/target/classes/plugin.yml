@@ -1,0 +1,10 @@
+name: CofreComunitario
+version: 1.0
+main: com.Cofre.CommunityChest
+api-version: 1.20
+description: Cofre comunitario para todos
+author: Enrique Cazun
+commands:
+  cc:
+    description: Abre el cofre comunitario
+    usage: /cc
