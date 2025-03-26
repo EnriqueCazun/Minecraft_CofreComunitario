@@ -8,14 +8,16 @@ import org.bukkit.inventory.Inventory;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.inventory.ItemStack;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
+
 public class CommunityChest extends JavaPlugin {
 
     private Inventory communityChest;
-
+    
     @Override
     public void onEnable() {
         getDataFolder().mkdirs();
@@ -26,9 +28,10 @@ public class CommunityChest extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        saveChest();
+    	saveChest();
         getLogger().info("Plugin de Cofre Comunitario desactivado!");
     }
+    
     private void saveChest() {
         try {
             File file = new File(getDataFolder(), "chest.yml");
