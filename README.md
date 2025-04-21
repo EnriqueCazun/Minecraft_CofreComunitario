@@ -14,7 +14,7 @@ Sistema de cofre compartido para servidores Minecraft donde todos los jugadores 
 ---  
 
 ## Instalación  
-1. Descarga `CofreComunitario-1.0.jar` desde [Releases](https://github.com/EnriqueCazun/CofreComunitario/releases).  
+1. Descarga `CofreComunitario-1.0.jar` desde [Releases](https://github.com/EnriqueCazun/Minecraft_CofreComunitario/releases/tag/1.0).  
 2. Colócalo en la carpeta `plugins` de tu servidor.  
 3. Reinicia el servidor.  
 
