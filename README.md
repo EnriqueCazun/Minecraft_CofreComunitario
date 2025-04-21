@@ -26,6 +26,11 @@ Sistema de cofre compartido para servidores Minecraft donde todos los jugadores 
 
 ---  
 
+## Contribuciones
+Los reportes de errores y sugerencias son bienvenidos. Abre un issue para discutir cambios.
+
+---
+
 ## Datos técnicos  
 - **Almacenamiento**: Los items se guardan automáticamente
 - **Seguridad**: No se pierden items al reiniciar el servidor.  
